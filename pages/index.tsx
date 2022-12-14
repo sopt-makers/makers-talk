@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import Footer from '../components/Footer';
 import Information from '../components/Information';
 import LuckyDraw from '../components/LuckyDraw';
 import Session from '../components/Session';
@@ -12,6 +13,7 @@ export default function Home() {
       <Session />
       <SpeakerIntroduction />
       <LuckyDraw />
+      <Footer />
     </>
   );
 }
