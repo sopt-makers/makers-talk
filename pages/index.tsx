@@ -1,14 +1,16 @@
 import styled from '@emotion/styled';
+import Image from 'next/image';
 import Footer from '../components/Footer';
 import Information from '../components/Information';
 import LuckyDraw from '../components/LuckyDraw';
 import Session from '../components/Session';
 import SpeakerIntroduction from '../components/SpeakerIntroduction';
+import poster from '../public/images/poster.gif';
 
 export default function Home() {
   return (
     <>
-      <TempContainer>gif 영역</TempContainer>
+      <Image src={poster} alt='poster' />
       <Information />
       <Session />
       <SpeakerIntroduction />
