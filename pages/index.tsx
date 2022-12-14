@@ -1,10 +1,9 @@
-import styled from '@emotion/styled';
 import Image from 'next/image';
 import Footer from '../components/Footer';
 import Information from '../components/Information';
 import LuckyDraw from '../components/LuckyDraw';
 import Session from '../components/Session';
-import SpeakerIntroduction from '../components/SpeakerIntroduction';
+import SpeakerIntroduction from '../components/speakerIntroduction';
 import poster from '../public/images/poster.gif';
 
 export default function Home() {
@@ -19,8 +18,3 @@ export default function Home() {
     </>
   );
 }
-
-const TempContainer = styled.div`
-  height: 618px;
-  background-color: royalblue;
-`;
