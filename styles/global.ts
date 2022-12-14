@@ -8,6 +8,11 @@ export const global = css`
 
   html,
   body {
+    background-color: #000000;
+    color: #f0f0f0;
+    max-width: 390px;
+    margin: 0 auto;
+
     /* Change Autocomplete styles in Chrome */
     input:-webkit-autofill,
     input:-webkit-autofill:hover,
