@@ -1,0 +1,20 @@
+@font-face {
+  font-family: SUIT;
+  src: url('SUIT-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: SUIT;
+  src: url('SUIT-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: SUIT;
+  src: url('SUIT-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: SUIT;
+  src: url('SUIT-Medium.ttf') format('truetype');
+  font-weight: 500;
+}

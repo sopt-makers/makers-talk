@@ -1,10 +1,8 @@
 import { css } from '@emotion/react';
-import font from './font';
 import { reset } from './reset';
 
 export const global = css`
   ${reset}
-  ${font}
 
   html,
   body {
@@ -12,6 +10,7 @@ export const global = css`
     color: #f0f0f0;
     max-width: 390px;
     margin: 0 auto;
+    font-family: SUIT;
 
     /* Change Autocomplete styles in Chrome */
     input:-webkit-autofill,
