@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import Information from '../components/Information';
+import LuckyDraw from '../components/LuckyDraw';
 import Session from '../components/Session';
 import SpeakerIntroduction from '../components/SpeakerIntroduction';
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Information />
       <Session />
       <SpeakerIntroduction />
+      <LuckyDraw />
     </>
   );
 }
