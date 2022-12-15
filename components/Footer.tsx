@@ -3,7 +3,13 @@ import styled from '@emotion/styled';
 export default function Footer() {
   return (
     <Container>
-      <Copyright>Copyright 2022 by Makers Organizer</Copyright>
+      <Copyright>
+        Copyright 2022 by{' '}
+        <a href='https://playground.sopt.org/makers' rel='noreferrer' target='_blank'>
+          Makers
+        </a>{' '}
+        Organizer
+      </Copyright>
       <MadeBy>Design: Lee Chaeyeon (Main), Lee Yeseo / Developer: Nam Juyeong</MadeBy>
     </Container>
   );
@@ -22,6 +28,10 @@ const Copyright = styled.div`
   font-size: 9px;
   line-height: 100%;
   color: #888888;
+
+  a {
+    text-decoration: underline;
+  }
 `;
 
 const MadeBy = styled.div`
