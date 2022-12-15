@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <Container>
       <Copyright>Copyright 2022 by Makers Organizer</Copyright>
-      <MadeBy>Design: Lee Chaeyeon (Main), Lee Yeseo / Developer: Nam Jooyoung</MadeBy>
+      <MadeBy>Design: Lee Chaeyeon (Main), Lee Yeseo / Developer: Nam Juyeong</MadeBy>
     </Container>
   );
 }
