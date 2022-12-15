@@ -111,12 +111,14 @@ export const reset = css`
   a {
     outline: none;
     text-decoration: none;
+    color: inherit;
   }
 
   a:hover,
   a:visited,
   a:active {
     text-decoration: none;
+    color: inherit;
   }
 
   /**
