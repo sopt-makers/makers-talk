@@ -53,7 +53,7 @@ export default function SpeakerCardList() {
         title={
           <SingleTitleWithDescription>
             <Title>나는 어떤 회사를 다녀야 하나</Title>
-            <Description>: SOPT에 들어오고 못한 지난 날 돌아보기</Description>
+            <Description>: 2년차 초짜 직장인의 현실 고민</Description>
           </SingleTitleWithDescription>
         }
       />
