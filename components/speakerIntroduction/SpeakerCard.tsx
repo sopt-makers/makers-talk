@@ -7,7 +7,7 @@ import ShareIcon from '../../public/icons/icon-share.svg';
 import KimnayeonTitle from '../../public/images/speaker/kimnayeon.svg';
 import KimheeyoungTitle from '../../public/images/speaker/kimheeyoung.svg';
 import LeehyunwooTitle from '../../public/images/speaker/leehyunwoo.svg';
-import LeejaehoonTitle from '../../public/images/speaker/Leejaehoon.svg';
+import LeejaehoonTitle from '../../public/images/speaker/leejaehoon.svg';
 import SongjungwooTitle from '../../public/images/speaker/songjungwoo.svg';
 import LeedonghunTitle from '../../public/images/speaker/leedonghun.svg';
 import ParkjungmooTitle from '../../public/images/speaker/parkjungmoo.svg';
