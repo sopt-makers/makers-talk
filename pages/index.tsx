@@ -9,7 +9,7 @@ import poster from '../public/images/poster.gif';
 export default function Home() {
   return (
     <>
-      <Image src={poster} alt='poster' />
+      <Image src={poster} alt='poster' priority />
       <Information />
       <Session />
       <SpeakerIntroduction />
