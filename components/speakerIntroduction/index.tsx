@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import SpeakerCardList from './SpeakerCardList';
 
 export default function SpeakerIntroduction() {
   return (
@@ -8,7 +9,7 @@ export default function SpeakerIntroduction() {
         {`의 발표자가 들려줄
 				개성 넘치는 이야기를 기대해 주세요!`}
       </Title>
-      <Cards>연사 카드 영역</Cards>
+      <SpeakerCardList />
     </Container>
   );
 }
@@ -30,11 +31,4 @@ const Title = styled.div`
   & > span {
     color: #c3ff62;
   }
-`;
-
-const Cards = styled.div`
-  height: 2254px;
-  background-color: royalblue;
-  width: 100%;
-  margin-top: 36px;
 `;
