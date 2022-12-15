@@ -14,7 +14,7 @@ export default function Information() {
       <DateAndTime>
         <Label>When</Label>
         <Content>2022.12.19 MON</Content>
-        <Content>19:30 - 22:00</Content>
+        <Content>20:00 - 22:00</Content>
       </DateAndTime>
       <Place>
         <Label>Where</Label>
